@@ -15,12 +15,12 @@ const projects = [
   {
     title: "Kordilu",
     type: "Process and Ritual",
-    status: "Coming next",
+    status: "Full case study",
     image: "/project-thumbs/kordilu.jpg",
-    href: "#works",
+    href: "/projects/kordilu",
     summary:
       "A redesign of a Dakar ritual process, moving from cultural friction to product form and prototype.",
-    methods: ["Context", "Ritual", "Material", "Prototype"],
+    methods: ["Context", "Process", "Ergonomics", "Prototype"],
   },
   {
     title: "Otium",
@@ -287,8 +287,8 @@ export default function Home() {
             <p>
               Product design portfolio prepared for graduate application review.
               The current site starts with Floralance as the flagship case
-              study, then leaves a clear structure for Kordilu, Otium, and
-              SymMoBot to be built with project-specific chapter names.
+              study, with Kordilu, Otium, and SymMoBot built through
+              project-specific chapter names.
             </p>
           </div>
         </div>
