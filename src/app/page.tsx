@@ -25,9 +25,9 @@ const projects = [
   {
     title: "Otium",
     type: "Sedentary Home",
-    status: "Coming next",
+    status: "Full case study",
     image: "/project-thumbs/otium.jpg",
-    href: "#works",
+    href: "/projects/otium",
     summary:
       "A product system that turns passive rest into small opportunities for movement in the home.",
     methods: ["Scenario", "Product System", "Movement", "Rendering"],
