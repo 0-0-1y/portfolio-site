@@ -1,13 +1,15 @@
+import Link from "next/link";
+
 export default function ProjectOnePage() {
   return (
     <main className="min-h-screen bg-[#f5f5f3] text-black">
       <div className="mx-auto max-w-5xl px-6 py-16 md:py-24">
-        <a
+        <Link
           href="/"
           className="inline-block text-sm text-black/50 transition hover:text-black"
         >
-          ← Back to Home
-        </a>
+          Back to Home
+        </Link>
 
         <header className="mt-10 border-b border-black/10 pb-10">
           <p className="text-sm uppercase tracking-[0.2em] text-black/45">
